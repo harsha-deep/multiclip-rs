@@ -6,3 +6,5 @@ edition = "2024"
 [dependencies]
 gtk4 = { package = "gtk4", version = "0.8" }
 glib = "0.18"
+rusqlite = { version = "0.32", features = ["bundled"] }
+dirs = "6.0"
